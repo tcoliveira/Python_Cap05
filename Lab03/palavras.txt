@@ -1,0 +1,10 @@
+casa
+celular
+teclado
+tela
+bola
+gesso
+mouse
+computador
+dedos
+vidro
