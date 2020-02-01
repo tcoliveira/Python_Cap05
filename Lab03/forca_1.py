@@ -77,7 +77,7 @@ class Word():
         print(Word.random)
 
     def Mask(self):
-        print("-"*(len(Word.random)))
+        print("-"*(len(Word.random)-1))
 
     '''def __str__():
         return Word.randomOpen(self)
