@@ -46,7 +46,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="forca_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="forca_1" type="PythonConfigurationType" factoryName="Python">
       <module name="Lab03" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +66,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.forca_1" />
         <item itemvalue="Python.forca_1" />
         <item itemvalue="Python.forca_1" />
       </list>
