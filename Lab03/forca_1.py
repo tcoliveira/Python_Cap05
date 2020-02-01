@@ -71,14 +71,13 @@ class Word():
     def __init__(self, file = (open('palavras.txt', 'r')).readlines()):
         self. file = file
         self.random = rd.choice(file)
-        print('class creation process completed')
+    #    print('class creation process completed')
 
     def fPrint(self):
         print(self.random)
 
-    def
 
-'''    def __str__():
+    '''def __str__():
         return Word.randomOpen(self)
 '''
 Word().fPrint()
