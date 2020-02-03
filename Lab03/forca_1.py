@@ -97,10 +97,11 @@ class Compareword(Word):
 
 
 def wordinput():
-    for i in range(len(Word.random)):
-        if re.search(Word.x, Word.random):
+    y = list(Word.random)
+    for i in range(len(y)):
+        if re.search(Word.x, y):
             print(Word.x)
-        elif re.search(Word.x, Word.random):
+        elif not re.search(Word.x, Word.random):
             for x in range(len(Board)):
                 print(Board[x])
                 x += 1
