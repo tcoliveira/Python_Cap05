@@ -1,4 +1,5 @@
 import random as rd
+import re
 
 # Tabuleiro
 
@@ -85,11 +86,7 @@ class Word():
         return Word.randomOpen(self)
         
 '''
-    def wordinput(self):
-        if Word.x == Word.random:
-            print(1)
-        else:
-            print(2)
+
 
 class Compareword(Word):
     x = Word.random
@@ -99,7 +96,18 @@ class Compareword(Word):
         print(Compareword.x)
 
 
+def wordinput():
+    for i in range(len(Word.random)):
+        if re.search(Word.x, Word.random):
+            print(Word.x)
+        elif re.search(Word.x, Word.random):
+            for x in range(len(Board)):
+                print(Board[x])
+                x += 1
+
+
+
 
 Word().fPrint()
 Word().Mask()
-Word.wordinput()
+wordinput()
