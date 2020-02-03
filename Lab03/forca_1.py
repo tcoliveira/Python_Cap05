@@ -70,13 +70,14 @@ class Word():
     file = file.readlines()
     random = rd.choice(file)
     x = input('Digite uma letra: ')
-    def __init__(self,  file = (open('palavras.txt', 'r')).readlines()):
+    def __init__(self,  file = (open('palavras.txt', 'r')).readlines()-1):
         self. file = file
         self.random = rd.choice(file)
     #    print('class creation process completed')
 
     def fPrint(self):
-        print(Word.random)
+        z=list(Word.random)
+        print(z)
 
     #Masking random word
     def Mask(self):
@@ -86,8 +87,6 @@ class Word():
         return Word.randomOpen(self)
         
 '''
-
-
 class Compareword(Word):
     x = Word.random
     def __init__(self):
@@ -96,8 +95,9 @@ class Compareword(Word):
         print(Compareword.x)
 
 
-def wordinput():
+'''def wordinput():
     y = list(Word.random)
+    w=[z for z in y ]
     for i in range(len(y)):
         if re.search(Word.x, y):
             print(Word.x)
@@ -107,8 +107,7 @@ def wordinput():
                 x += 1
 
 
-
+'''
 
 Word().fPrint()
 Word().Mask()
-wordinput()
