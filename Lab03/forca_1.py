@@ -94,8 +94,7 @@ class Compareword(Word):
     def Teste():
         print(Compareword.x)
 
-
-'''def wordinput():
+def wordinput():
     y = list(Word.random)
     w=[z for z in y ]
     for i in range(len(y)):
@@ -107,7 +106,7 @@ class Compareword(Word):
                 x += 1
 
 
-'''
+
 
 Word().fPrint()
 Word().Mask()
